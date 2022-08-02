@@ -1,0 +1,85 @@
+html{
+    font-size: 62.5;
+    background-color: burlywood;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.colorMarronTierra{
+    color:#1a1211
+}
+
+ul{
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 2rem;}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+nav{
+    display: flex;
+    flex-flow: column;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 3 rem; padding-left: 0rem;
+    font-size: 4rem;  
+}
+
+main h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem; 
+}
+
+p{
+    font-size: 3rem; color: #1a1211;
+
+}
+
+.caja-img{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+    
+.caja-Discografia{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    margin-top: 3rem;
+    text-align: center;
+    
+}
+
+.p-redessociales{
+    font-size: 2rem;
+    color: #1a1211;
+}
+
+.cajaInstagram1{
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+}
+
+.cajaInstagram2{
+    display: flex;
+    flex-direction: row;
+}
